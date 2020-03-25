@@ -10,7 +10,6 @@ const path = require('path');
 server.get('/', (req, res) => res.sendFile(path.resolve('./public/index.html')));
 server.get('/bundle.js',(req, res)=>res.sendFile(path.resolve('./dist/bundle.js')));
 
-console.clear();
 
 const chalkConsole = require('chalk-console');
 chalkConsole.blue('\nServer Running ...\n');
