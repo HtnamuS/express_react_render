@@ -1,0 +1,52 @@
+.TasksContainer{
+	margin: auto auto 2%;
+	width: 70%;
+	padding: 10px;
+	border: solid lightgray 0.15mm;
+	border-radius: 7px;
+}
+.Title{
+	margin: 0 0 0 0;
+	overflow: auto;
+}
+.TitleInput{
+	height: 25px;
+	font: inherit;
+	font-size: x-large;
+	outline: none;
+	font-weight: lighter;
+	background-color: transparent;
+	border:none;
+	color: inherit;
+	display: inline-block;
+	width: 70%;
+	text-decoration: underline;
+}
+
+.TitleSpan{
+	height: 25px;
+	color: inherit;
+	font-size: x-large;
+	font-weight: lighter;
+	outline: none;
+	border: none;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.TitleSpan:focus{
+	cursor: text;
+}
+
+.DeleteListButton{
+	border-radius: 50px;
+	height: 30px;
+	width: 100px;
+	font-size: 15px;
+	float: right;
+	margin-right: 6%;
+}

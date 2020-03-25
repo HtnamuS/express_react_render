@@ -1,0 +1,20 @@
+.TodoInputDivision{
+	padding-inline-start: 0;
+	border-bottom: thin dimgrey solid;
+	margin: 1% 0 0 0;
+}
+.NewTodoPlusSymbol{
+	font-size: large;
+	color: darkgray;
+	margin-left: 0.5%;
+	margin-right: 1.6%;
+}
+
+.TodoInputField{
+	background-color: transparent;
+	color:white;
+	width: 94%;
+	font-size: 20px;
+	outline: transparent;
+	border: transparent;
+}

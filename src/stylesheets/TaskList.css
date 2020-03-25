@@ -1,0 +1,70 @@
+button{
+	background-color: #282c34;
+	color: lightgray;
+	border: solid transparent 0.15mm;
+	outline: 0;
+	font-weight: bold;
+}
+
+button:hover{
+	border-color: gray;
+	color: white;
+}
+.TodoTaskList{
+	list-style: none;
+	padding-inline-start: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.CompletedTaskList{
+	list-style: none;
+	padding-inline-start: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.TodoActionBar{
+	margin-top: 1%;
+	overflow:auto
+}
+.CompletedActionBar{
+	min-width: 250px;
+	padding-top: 10px;
+	overflow:auto
+}
+
+.TaskListHead{
+	float: left;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	font-size: medium;
+	color: gray;
+	transition: 0.5s;
+	width: 25%;
+	display: inline-block;
+}
+
+.CompressedListHead{
+	color: lightgray;
+}
+
+.ClearAllButton{
+	float: right;
+	display: inline-block;
+	width: 15%;
+	margin-right: 20px;
+
+	border-radius: 10px;
+}
+
+.MarkAllButton{
+	float: right;
+	display: inline-block;
+	width: 15%;
+	margin-left: 20px;
+	margin-right: 30px;
+	border-radius: 10px;
+}

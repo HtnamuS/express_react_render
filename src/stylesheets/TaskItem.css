@@ -1,0 +1,99 @@
+.TaskListElement{
+	position: relative;
+	min-width: 250px;
+	margin: 1% 0 1% 0;
+}
+.TodoTaskListElementText{
+	word-break: break-all;
+	font-size: 20px;
+	margin-left: 1%;
+	transition: 0.5s;
+	display: inline-block;
+	width: 90%;
+	text-align: left;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.TodoTaskListElementText:focus{
+	outline: none;
+	cursor: text;
+}
+
+.TodoTaskListElementText:hover{
+	color:gray;
+	text-decoration: line-through;
+}
+
+.TodoTaskListElementTextHover{
+	color:gray;
+	text-decoration: line-through;
+
+}
+
+.CompletedTaskListElementText{
+	word-break: break-all;
+	font-size: 20px;
+	color: gray;
+	text-decoration: line-through;
+	text-align: left;
+	transition: 0.5s;
+	margin-left: 1%;
+	display: inline-block;
+	width: 90%;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.CompletedTaskListElementText:hover{
+	color: lightgray;
+	text-decoration: none;
+}
+
+.CompletedTaskListElementTextHover{
+	color: lightgray;
+	text-decoration: none;
+}
+
+.CompletedTaskListElementText:focus{
+	outline: none;
+	cursor: text;
+}
+.ContentEditingElement{
+	text-decoration: inherit;
+	color:inherit;
+}
+.ContentEditingElement:hover{
+	text-decoration: inherit;
+	color:inherit;
+}
+.RemoveTaskButton{
+	cursor: pointer;
+	vertical-align: top;
+	font-size: large;
+	left: 0;
+	display: inline-block;
+	opacity: 0.3;
+	transition: 0.5s;
+	background-color: transparent;
+	float: left;
+	border: none;
+}
+.TaskListElement:hover .RemoveTaskButton{
+	opacity: 1;
+}
+
+.TaskListElement:hover .RemoveTaskButton:hover{
+	color:red;
+}
+
+.RemoveTaskButtonHover{
+	opacity: 1;
+	color: red;
+}
+
+.FocusTaskElement{
+	border: solid dimgrey 1px;
+	border-right: none;
+	border-left: none;
+}
